@@ -127,7 +127,7 @@ const Home = ({correoUsuario}) => {
         <div className='col-md-4'>
           <h3 className='text-center mb-3'>ingresar usuario</h3>
           <p className='alert alert-danger'>
-          {subId!==''?'si eliminas el contenido al haber selecionado un elemento para actuaizar yañades otros datos, reemplazas los datos de este usuario':
+          {subId!==''?'si eliminas el contenido al haber selecionado un elemento para actuaizar y añades otros datos, reemplazas los datos de este usuario':
           'verifica todos los campos antes de agregar el usuario'}
           </p>
           <form onSubmit={guardarDatos}>
